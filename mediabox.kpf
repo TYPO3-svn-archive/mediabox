@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="b3be64a5-c3ff-472e-aa5f-9ec901f2926b" kpf_version="4" name="mediabox.kpf">
+<preference-set idref="b3be64a5-c3ff-472e-aa5f-9ec901f2926b">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>

@@ -1,0 +1,24 @@
+
+page.includeCSS.mediabox = {$plugin.tx_mediabox.css}
+page.includeJS.mootools = {$plugin.tx_mediabox.mootools}
+page.includeJS.mediabox = {$plugin.tx_mediabox.javascript}
+
+page.headerData.10 = USER
+page.headerData.10.userFunc = tx_mediabox->scanPage
+page.headerData.10{
+  loop = 0
+  keyboard = 1
+  alpha = 1
+  stopKey = 0
+  overlayOpacity = 0.7
+  resizeOpening = 1
+  resizeDuration = 240
+  resizeTransition = 0
+  initialWidth  = 320
+  initialHeight = 180
+  defaultWidth  = 640
+  defaultHeight = 360
+  showCaption = 0
+  showCounter = 1
+  counterText = ({x} von {y})
+}

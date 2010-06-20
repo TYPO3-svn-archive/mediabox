@@ -1,0 +1,13 @@
+plugin.tx_mediabox{
+  
+  #cat=mediabox/file/a; type=string; label=Design: Specify path to mediabox styles here.
+  #css = EXT:mediabox/res/css/mediaboxAdvWhite.css
+  css = EXT:mediabox/res/css/mediaboxAdvBlack.css
+  
+  #cat=mediabox/file/a; type=string; label=Mootools: Specify path to mootools framework here.
+  mootools = EXT:mediabox/res/js/mootools-1.2.4-core-nc.js
+  
+  #cat=mediabox/file/a; type=string; label=Mediabox: Specify path to mediabox script here.
+  javascript = EXT:mediabox/res/js/mediaboxAdv-1.2.4.js
+  
+}
